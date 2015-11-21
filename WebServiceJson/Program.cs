@@ -25,8 +25,10 @@ namespace WebServiceJson
         public static async Task carragadorDadosRemotoAssicrono()
         {
             var client = new HttpClient();
-            client.MaxResponseContentBufferSize = 1024 * 1024;
-            var response = await client.GetAsync(new Uri("http://10.0.0.103/webservice/json.txt"));
+            client.MaxResponseContentBufferSize = 1024 * 1024;//limitede conteudo por 1Mb
+            //json.txt deve esta codificada em UTF-8 caso contrario pode apresentar erro de leitura
+            //[{"nome":"Anderson", "idade":"24", "cidade":"Ananindeua"},{"nome":"José", "idade":"34", "cidade":"Belém"},{"nome":"Maria", "idade":"54", "cidade":"Rio de janeiro"},{"nome":"Roberto", "idade":"54", "cidade":"Rio de janeiro"},{"nome":"Pedro", "idade":"54", "cidade":"Rio de janeiro"},{"nome":"Chico", "idade":"54", "cidade":"Rio de janeiro"}]
+            var response = await client.GetAsync(new Uri("http://localhost/webservice/json.txt"));
             var result = await response.Content.ReadAsStringAsync();
             if (result.Length < 2)
             {
@@ -34,7 +36,7 @@ namespace WebServiceJson
                 Console.WriteLine(result.Length);
             }
             
-            Debug.WriteLine("------     "+result);
+            Debug.WriteLine("------  "+result);
             List<Pessoas> pessoas = JsonConvert.DeserializeObject<List<Pessoas>>(result);
             Console.WriteLine("Total de registros "+pessoas.Count);
             Console.WriteLine("~~~~~~~~~~~~~~");

@@ -6,3 +6,11 @@ c:\users\pará site\documents\visual studio 2012\Projects\WebServiceJson\WebServ
 c:\users\pará site\documents\visual studio 2012\Projects\WebServiceJson\WebServiceJson\obj\Debug\WebServiceJson.pdb
 c:\users\pará site\documents\visual studio 2012\Projects\WebServiceJson\WebServiceJson\bin\Debug\Newtonsoft.Json.dll
 c:\users\pará site\documents\visual studio 2012\Projects\WebServiceJson\WebServiceJson\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Anderson\Documents\GitHubVisualStudio\WebServiceJson\WebServiceJson\bin\Debug\WebServiceJson.exe.config
+C:\Users\Anderson\Documents\GitHubVisualStudio\WebServiceJson\WebServiceJson\obj\Debug\WebServiceJson.exe
+C:\Users\Anderson\Documents\GitHubVisualStudio\WebServiceJson\WebServiceJson\obj\Debug\WebServiceJson.pdb
+C:\Users\Anderson\Documents\GitHubVisualStudio\WebServiceJson\WebServiceJson\bin\Debug\WebServiceJson.exe
+C:\Users\Anderson\Documents\GitHubVisualStudio\WebServiceJson\WebServiceJson\bin\Debug\WebServiceJson.pdb
+C:\Users\Anderson\Documents\GitHubVisualStudio\WebServiceJson\WebServiceJson\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Anderson\Documents\GitHubVisualStudio\WebServiceJson\WebServiceJson\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Anderson\Documents\GitHubVisualStudio\WebServiceJson\WebServiceJson\obj\Debug\WebServiceJson.csprojResolveAssemblyReference.cache
