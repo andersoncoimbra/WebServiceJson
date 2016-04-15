@@ -14,3 +14,11 @@ C:\Users\Anderson\Documents\GitHubVisualStudio\WebServiceJson\WebServiceJson\bin
 C:\Users\Anderson\Documents\GitHubVisualStudio\WebServiceJson\WebServiceJson\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Anderson\Documents\GitHubVisualStudio\WebServiceJson\WebServiceJson\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Anderson\Documents\GitHubVisualStudio\WebServiceJson\WebServiceJson\obj\Debug\WebServiceJson.csprojResolveAssemblyReference.cache
+C:\Users\pc\Source\Repos\WebServiceJson\WebServiceJson\bin\Debug\WebServiceJson.exe.config
+C:\Users\pc\Source\Repos\WebServiceJson\WebServiceJson\obj\Debug\WebServiceJson.exe
+C:\Users\pc\Source\Repos\WebServiceJson\WebServiceJson\obj\Debug\WebServiceJson.pdb
+C:\Users\pc\Source\Repos\WebServiceJson\WebServiceJson\bin\Debug\WebServiceJson.exe
+C:\Users\pc\Source\Repos\WebServiceJson\WebServiceJson\bin\Debug\WebServiceJson.pdb
+C:\Users\pc\Source\Repos\WebServiceJson\WebServiceJson\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pc\Source\Repos\WebServiceJson\WebServiceJson\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pc\Source\Repos\WebServiceJson\WebServiceJson\obj\Debug\WebServiceJson.csprojResolveAssemblyReference.cache

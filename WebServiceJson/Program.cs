@@ -28,7 +28,7 @@ namespace WebServiceJson
             client.MaxResponseContentBufferSize = 1024 * 1024;//limitede conteudo por 1Mb
             //json.txt deve esta codificada em UTF-8 caso contrario pode apresentar erro de leitura
             //[{"nome":"Anderson", "idade":"24", "cidade":"Ananindeua"},{"nome":"José", "idade":"34", "cidade":"Belém"},{"nome":"Maria", "idade":"54", "cidade":"Rio de janeiro"},{"nome":"Roberto", "idade":"54", "cidade":"Rio de janeiro"},{"nome":"Pedro", "idade":"54", "cidade":"Rio de janeiro"},{"nome":"Chico", "idade":"54", "cidade":"Rio de janeiro"}]
-            var response = await client.GetAsync(new Uri("http://localhost/webservice/json.txt"));
+            var response = await client.GetAsync(new Uri("http://paraplay.com.br/php/php.txt"));
             var result = await response.Content.ReadAsStringAsync();
             if (result.Length < 2)
             {
